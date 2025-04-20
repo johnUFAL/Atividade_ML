@@ -38,7 +38,7 @@ plt.grid(True)
 #plt.show()
 
 #hora de escolher um k bom e pelo gráfico é 2
-kmeans = KMeans(n_clusters=2, random_state=42)
+kmeans = KMeans(n_clusters=3, random_state=42)
 clusters = kmeans.fit_predict(dados_normalizados)
 
 #rotulos ao original
